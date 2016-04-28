@@ -15,10 +15,6 @@ Original code is taken from `django-ckeditor-filer`_
 It supports both ckeditor widget provided by `django-ckeditor`_ and the one provided
 by `djangocms-text-ckeditor`_.
 
-.. warning:: if you are using filer<1.2 this plugin requires `django CMS`_
-  `cmsplugin_filer_image`_, thus you need to install and configure both according
-  to their respective documentation.
-
 
 Quickstart
 ----------
@@ -67,7 +63,6 @@ when using `djangocms-text-ckeditor`_ use ``CKEDITOR_SETTINGS`` instead of
 .. _Canonical URLs: http://django-filer.readthedocs.org/en/latest/installation.html#canonical-urls
 .. _django CMS: https://pypi.python.org/pypi/django-cms
 .. _django-filer: https://pypi.python.org/pypi/django-filer
-.. _cmsplugin_filer_image: https://pypi.python.org/pypi/cmsplugin_filer_image
 .. _django-ckeditor: https://pypi.python.org/pypi/django-ckeditor
 .. _djangocms-text-ckeditor: https://pypi.python.org/pypi/djangocms-text-ckeditor
 .. _django-ckeditor-filer: https://github.com/ikresoft/django-ckeditor-filer/

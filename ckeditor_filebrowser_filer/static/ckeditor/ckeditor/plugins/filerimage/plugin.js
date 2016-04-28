@@ -39,7 +39,7 @@
                 }
                 CKEDITOR.dialog.add( 'filerImageDialog', that.path + 'dialogs/filerImageDialog.js' );
             });
-            
+
             jQuery.get('/filebrowser_filer/use_thumbnailoptions_only/', { }, function(data) {
                 editor.use_thumbnailoptions_only = data
             });
